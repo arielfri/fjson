@@ -1,0 +1,18 @@
+Package: fjson
+Title: Fast JSON reader
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Ariel",
+           family = "Fridman",
+           role = c("aut", "cre"),
+           email = "ariel.fridman93@gmail.com")
+Description: fjson reads a JSON file into a data table.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 6.1.1
+LinkingTo: 
+    Rcpp
+Imports: 
+    Rcpp, data.table, parallel, readr
